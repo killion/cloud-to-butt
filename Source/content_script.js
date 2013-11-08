@@ -56,6 +56,8 @@ function handleText(textNode)
 	v = v.replace(/\bCars\b/g, "Cats");
 	v = v.replace(/\belection\b/g, "eating contest");
 	v = v.replace(/\bElection\b/g, "Eating contest");
+	v = v.replace(/\bcongressional leader\b/g, "river spirit");
+	v = v.replace(/\bCongressional leader\b/g, "River spirit");
 	v = v.replace(/\bcongressional leaders\b/g, "river spirits");
 	v = v.replace(/\bCongressional leaders\b/g, "River spirits");
 	v = v.replace(/\bhomeland security\b/g, "Homestar Runner");
