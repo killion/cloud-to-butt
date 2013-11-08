@@ -1,7 +1,7 @@
 XKCD Substitutions
 =============
 
-Chrome extension that replaces occurrences of 'the cloud' with 'my butt'
+Chrome extension that replaces occurrences of certain phrases as seen in XKCD 1288.
 
 [Direct download of crx file](https://github.com/killion/xkcd-substitutions/blob/master/XKCDSubstitutions.crx?raw=true)
 
