@@ -13,7 +13,7 @@ http://xkcd.com/1288/
 Credit Where It's Due
 ---------------------
 
-This is directly based off of Steve Frank's excellent cloud-to-butt extension.
+This is directly based off of Steven Frank's excellent cloud-to-butt extension.
 
 
 Installation
