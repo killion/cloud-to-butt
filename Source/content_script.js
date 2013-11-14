@@ -31,6 +31,8 @@ function handleText(textNode)
 {
 	var v = textNode.nodeValue;
 
+	v = v.replace(/\ba witness\b/g, "this dude I know");
+	v = v.replace(/\bA witness\b/g, "this dude I know");
 	v = v.replace(/\bwitnesses\b/g, "these dudes I know");
 	v = v.replace(/\bWitnesses\b/g, "These dudes I know");
 	v = v.replace(/\ballegedly\b/g, "kinda probably");
