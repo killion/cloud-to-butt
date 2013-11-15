@@ -1,7 +1,7 @@
 {
 	"manifest_version": 2,
 	"name": "XKCD Substitutions",
-	"version": "1.0",
+	"version": "1.0.2",
 	"description": "Makes reading the news more fun. From http://xkcd.com/1288/",
 	"icons": { "16": "icon16.png",
 	           "48": "icon48.png",
