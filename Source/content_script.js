@@ -70,7 +70,8 @@ function handleText(textNode)
 	v = v.replace(/\bcould not be reached for comment\b/g, "is guilty and everyone knows it");
 	v = v.replace(/\bCould Not Be Reached For Comment\b/g, "Is Guilty And Everyone Knows It");
 	v = v.replace(/\bCould Not Be Reached for Comment\b/g, "Is Guilty And Everyone Knows It");
-	
+	v = v.replace(/\bliterally\b/g, "hyperbolically");
+	v = v.replace(/\bLiterally\b/g, "Hyperbolically");
 	textNode.nodeValue = v;
 }
 
