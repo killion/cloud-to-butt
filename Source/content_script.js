@@ -32,13 +32,15 @@ function handleText(textNode)
 	var v = textNode.nodeValue;
 
 	v = v.replace(/\ba witness\b/g, "this dude I know");
-	v = v.replace(/\bA witness\b/g, "this dude I know");
+	v = v.replace(/\bA witness\b/g, "This dude I know");
 	v = v.replace(/\bwitnesses\b/g, "these dudes I know");
 	v = v.replace(/\bWitnesses\b/g, "These dudes I know");
 	v = v.replace(/\ballegedly\b/g, "kinda probably");
 	v = v.replace(/\bAllegedly\b/g, "Kinda probably");
 	v = v.replace(/\bnew study\b/gi, "Tumblr post");
+	v = v.replace(/\bNew study\b/gi, "Tumblr post");
 	v = v.replace(/\bnew studies\b/gi, "Tumblr posts");
+	v = v.replace(/\bNew studies\b/gi, "Tumblr posts");
 	v = v.replace(/\brebuild\b/g, "avenge");
 	v = v.replace(/\bRebuild\b/g, "Avenge");
 	v = v.replace(/\brebuilding\b/g, "avenging");
@@ -47,7 +49,9 @@ function handleText(textNode)
 	v = v.replace(/\bSpace\b/g, "Spaaace");
 	v = v.replace(/\bGoogle Glass\b/g, "Virtual Boy");
 	v = v.replace(/\bsmartphone\b/gi, "Pokédex");
+	v = v.replace(/\bSmartphone\b/gi, "Pokédex");
 	v = v.replace(/\bsmartphones\b/gi, "Pokédexes");
+	v = v.replace(/\bSmartphones\b/gi, "Pokédexes");
 	v = v.replace(/\belectric\b/g, "atomic");
 	v = v.replace(/\bElectric\b/g, "Atomic");
 	v = v.replace(/\bsenator\b/g, "elf-lord");
@@ -67,10 +71,10 @@ function handleText(textNode)
 	v = v.replace(/\bcongressional leaders\b/g, "river spirits");
 	v = v.replace(/\bCongressional leaders\b/g, "River spirits");
 	v = v.replace(/\bhomeland security\b/gi, "Homestar Runner");
+	v = v.replace(/\bHomeland security\b/gi, "Homestar Runner");
 	v = v.replace(/\bcould not be reached for comment\b/g, "is guilty and everyone knows it");
-	v = v.replace(/\bCould Not Be Reached For Comment\b/g, "Is Guilty And Everyone Knows It");
-	v = v.replace(/\bCould Not Be Reached for Comment\b/g, "Is Guilty And Everyone Knows It");
-	
+	v = v.replace(/\bCould not be reached for comment\b/g, "Is guilty and everyone knows it");
+
 	textNode.nodeValue = v;
 }
 
